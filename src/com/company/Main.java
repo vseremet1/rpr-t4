@@ -1,8 +1,15 @@
 package com.company;
+import java.util.Set;
 
 public class Main {
+    Set<Predmet> predmeti;
+    Set<Student> studenti;
+    Set<Upis> upisani;
 
-    public static void main(String[] args) {
-	// write your code here
+    void Upisi(Student s, Predmet p, PlanStudija ps) {
+        upisani.add(new Upis(s, p, ps));
+
     }
+
 }
+
