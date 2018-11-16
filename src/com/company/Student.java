@@ -8,7 +8,7 @@ int brojIndeksa;
 String ImePrezime;
 
 public Student (int brojIndeksa, String imePrezime) {}
-public intvratiIndeks () {return this.brojIndeksa;}
+public int vratiIndeks() {return this.brojIndeksa;}
 public String vratiImePrezime () {return this.ImePrezime;}
 
 
